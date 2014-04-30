@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.5.1
+!define VERSION 0.8.6.2
 !define COMPANY "Orcacoin project"
 !define URL http://orcacoin.com/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile orcacoin-0.8.5-win32-setup.exe
+OutFile orcacoin-0.8.6.2-win32-setup.exe
 InstallDir $PROGRAMFILES\Orcacoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.5.1
+VIProductVersion 0.8.6.2
 VIAddVersionKey ProductName Orcacoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
